@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+}
+
+#container {
+  width: 60%;
+  margin: auto;
+}
+
+header, nav, footer {
+  font-size: 20px;
+  color: white;
+}
+
+header, nav, main, footer {
+  margin: 8px 0;
+}
+
+header .gmail-logo {
+  width: 10%;
+}
+
+nav .unread-count {
+  margin-top: 5px;
+}
+
+.unread-count .num {
+  background-color: orange;
+  border-radius: 20px;
+}
+
+main .email {
+  margin: 3px 0;
+}
+
+.email.read {
+  background-color: #c2cccc;
+}
+
+.email.unread {
+  background-color: white;
+}
+
+.email .object {
+  width: 35%;
+  float: left;
+  line-height: 20px;
+  padding-left: 5px;
+}
+
+.email .text {
+  width: 65%;
+  float: left;
+  line-height: 20px;
+  color: rgba(0,0,0,0.5);
+}
+
+.email:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  text-align: center;
+}
+
+footer span {
+  font-style: italic;
+  font-size: 12px;
+}
